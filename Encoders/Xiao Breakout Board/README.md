@@ -121,7 +121,7 @@ If all looks well here you can click on the `SAVE TO CART` button.
 
 ## How to upload firmware
 
-Please refer to instructions posted by jfedor2 at the [slimbox-bt repository](https://github.com/jfedor2/slimbox-bt). Specifically, this board was designed for use with jfedor2's flatbox-rev7.uf2 pre-built binary. A copy of that firmware file (retrieved March 25, 2025) is also stored in this repository: [Firmware](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Encoders/Xiao-Breakout-Board/Firmware/flatbox-rev7.uf2)
+Please refer to instructions posted by jfedor2 at the [slimbox-bt repository](https://github.com/jfedor2/slimbox-bt). Specifically, this board was designed for use with jfedor2's flatbox-rev7.uf2 pre-built binary. A copy of that firmware file (retrieved March 25, 2025) is also stored in this repository: [Firmware](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Encoders/Xiao%20Breakout%20Board/Firmware/flatbox-rev7.uf2)
 
 ## Revision History
 
