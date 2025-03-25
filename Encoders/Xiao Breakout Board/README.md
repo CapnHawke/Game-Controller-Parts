@@ -1,25 +1,33 @@
-# FP BBB-H version 1.1
+# XBB - Xiao Breakout Board
 
-![rp2040_BBB-H-FP-v1.1](https://github.com/CapnHawke/Arcade-Addons/blob/main/Encoders/Assets/Completed%20board.jpg)
+`[Photo pending]`
 
 ---
 
-## Attribution
+## Attribution and Special Thanks
 
-The following text must be included in any distribution of derivatives of this file. All Links must also be included.
+A special thank you to the Open Stick Community and its contributors! 
 
-Copyright 2023 [TheTrain](https://github.com/TheTrainGoes) 
-With revisions in 2024 by [Hawkeye](https://github.com/CapnHawke)
+Thank you to TheTrain for providing drawings for the RP2040 Advanced Breakout Board, whose dimensions were referenced in creating the board outline for this PCB. 
+
+Thank you to jfedor2 for providing build instructions and corresponding graphics for the flatbox rev. 7. Visuals hosted in jfedor2's corresponding GitHub repository were referenced when drawing traces on this PCB. Thank you also for providing the code used by this device.
+
+## Accreditation
+
+The following text must be included in any distribution of this file or its derivatives. All Links must also be included.
+
+Copyright 2025 [Hawkeye](https://github.com/CapnHawke)
 
 [Licensed under CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 Changes from the original design:
- - Added right angle pin headers to each through hole on the original board.
- - Added a decorative copper fill area with no assigned NET, useful for applying a logo.
+ - List any changes you have here
 
 ## Summary
 
-The RP2040 Basic Breakout Board is an excellent solution for users who are looking for a PCB that is compatible with 20-pin wiring harnesses which have become standard in the home arcade-stick market. The main feature for this remix is the right angle header, which gives users the ability to use 1x1 DuPont connectors or jumper cables, to access more features on the board with easy, readymade, solder free wiring that fits inside a very slim case. 
+This is an UNTESTED design of a breakout board for a Seeed Studio Xiao-ESP32-C3 wireless device. It is suitable for building a wireless game controller running firmware written and compiled by jfedor2. 
+
+Please note that a lithium battery will be required for any final controller builds! It is strongly recommended that a user include a battery caddy for safe storage of an attached battery in a fixed location near the PCB. I have plans to create an STL for a suitable battery. 
 
 ## Assembly
 
@@ -30,21 +38,21 @@ Those files are:
 - A BoM file for the list of parts to be assembled
 - A Pick and Place file (also called a CPL) for the placement of the parts in the BoM file
 
-This design includes both SMD and through hole parts from JLCPCB.  There are additional costs associated with having through hole parts added to the board.  You can reduce overall costs by removing headers that are not needed for your specific application of the board.  This can be done in EasyEDA directly by choosing to exclude the part from the BoM before exporting the necessary files.
+This design includes through hole parts from JLCPCB.  There are additional costs associated with having through hole parts added to the board.  You can reduce overall costs by removing headers that are not needed for your specific application of the board.  This can be done in EasyEDA directly by choosing to exclude the part from the BoM before exporting the necessary files.
 
-These boards have been designed to be fully assembled by JLCPCB.  You will not need to do any soldering or assembly of any kind, should you order a batch of them.  The only thing you will need to do is flash the boards with the most recent version of GP2040-CE and then test the boards.
+It will be necessary to solder a Xiao ESP32-C3 wireless device to this breakout board after it is assembled by JLCPCB. 
 
 Please note that these files are provided without warranty. The providers are not responsible for issues that arise from the manufacturing of these boards done through JLCPCB or any other manufacturer.  These board files have been ordered and tested for functionality. 
 
 ## How to order a board
 
-All of the boards so far have been ordered though JLCPCB.  Due to minimum order numbers you would get five of these basic breakout boards.  Here are the steps to make your first order and what options I choose along the way.
+All of the boards so far have been ordered though JLCPCB.  Due to minimum order numbers you would get five of these breakout boards.  Here are the steps to make your first order and what options I choose along the way.
 
 1 - Go to JLCPCB.com<br/>
 
 2 - Click on `Instant Quote`<br/>
 
-3 - Click on `Add Gerber file` and choose the file named `Gerber_PCB-RP2040-BBB-H-FP-v1.1.zip` from the `Fabrication files` folder<br/>
+3 - Click on `Add Gerber file` and choose the file named `Gerber_XBB-Xiao-Breakout-Board_PCB_XBB-v0.1.0-Xiao-Breakout-Board_2025-03-25.zip` from the `Production files` folder<br/>
 
 4 - Choose the following options for the board:<br/>
 - Base Material = FR-4<br/>
@@ -68,7 +76,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 - Castellated Holes = No<br/>
 - No advanced options<br/>
 
-Note 1 - If ordering under 50 units you can use single PCB.  For orders of more than 50 units JLCPCB will require you to make a larger plate for them.  I have compared the costs of doing this for runs in the hundreds and there is only a very small decrease in price over ordering 50 single PCBs at a time.  Ordering the 50 single PCBs has the added bonus of coming as individual pieces which do not require additional processing like the plated ones will.
+Note 1 - If ordering under 50 units you can use single PCB.  For orders of more than 50 units JLCPCB will require you to make a larger plate for them.  Costs have been compared for doing this for runs in the hundreds and there is only a very small decrease in price over ordering 50 single PCBs at a time.  Ordering the 50 single PCBs has the added bonus of coming as individual pieces which do not require additional processing like the plated ones will.
 
 Note 2 - This adds around $1 to the total cost of the order and is 100% worth doing as it will allow you one last chance to catch any issues that may have popped up.
 
@@ -90,8 +98,8 @@ Note 5 - This adds around $1 to the total cost of the order and is 100% worth do
 7 - The Bill of Materials page will show you a render of the board without parts.  You can click the `NEXT` button here unless you see any issues with the board<br/>
 
 8 - You will now have the option to upload two files:
-- For the `Add BOM File` you will need to choose the `BOM_PCB-RP2040-BBB-H-FP-v1.1.csv` file that is located in the Fabrication files folder
-- For the `Add CPL File` you will need to choose the `PickAndPlace_PCB-RP2040-BBB-H-FP-v1.1.csv` file that is located in the Fabrication files folder<br/>
+- For the `Add BOM File` you will need to choose the `BOM_XBB-Xiao-Breakout-Board_2025-03-25.csv` file that is located in the Production files folder
+- For the `Add CPL File` you will need to choose the `PickAndPlace_PCB_XBB-v0.1.0-Xiao-Breakout-Board_2025-03-25.csv` file that is located in the Production files folder<br/>
 Once these two files have been uploaded you can press the `Process BOM & CPL` button.
 
 9 - You will now see a list of components that will be used to assemble the boards.  If there are not listed issues here you can click on the `NEXT` button. (note 6), (note 7)
@@ -111,35 +119,14 @@ If all looks well here you can click on the `SAVE TO CART` button.
 
 12 - The `Secure Checkout` process will be different based on your location in the world.  We recommend researching your shipping options to choose the one that is right for your application. 
 
-
 ## How to upload firmware
 
-If uploading the firmware before assembly you can hold the BootSel button on the Pico and plug the device into your computer.  It will show up as an external device.  You can download a copy of the necessary firmware files from the OpenStick Community GitHub repository. [A link to firmware Version 0.7.10 is provided here](https://github.com/OpenStickCommunity/GP2040-CE/releases/tag/v0.7.10). Copy the `GP2040-CE_0.X.X_RP2040AdvancedBreakoutBoardPassthrough.uf2` file to it and wait for the device to disconnect after copying completes.  
-
-If uploading the firmware after assembly plug the Pico into your computer and quickly press the BootSel button twice on the Pico Basic Breakout Board.  You should see an external device show up on your computer.  Copy the `GP2040-CE_0.X.X_RP2040AdvancedBreakoutBoard.uf2` file to it and wait for the device to disconnect after copying completes.  
-
-If something goes wrong and you want to upload the firmware again (or if you have tested out the configuration tool and made a mistake) you can enter BootSel mode via either of the methods above and drag over the included `flash_nuke.uf2` file.  This file will take a moment to write to the Pico, once completed you will see the device disconnect and then re-connect as an external device.  After it has shown up again you can copy the same `GP2040-CE_0.X.X_RP2040AdvancedBreakoutBoardPassthrough.uf2` firmware over to it again.
-
-## How to add your own logo
-
-Open the folder `Design files` and download the provided .json file. Load the file into EasyEDA. Navigate to your "Layers and Objects" pane and ensure that you are working on the TopLayer. Delete the image of the Frame Perfect Logo. Then, in your "Layers and Objects" pane, and select "TopSolderMaskLayer" and delete the image of the Frame Perfect Logo on top solder mask as well. 
-
-While still working in the Top Solder Mask layer, navigate to the "Place" dropdown menu and select `Place > Image`. Import your own image into the design, and set it in the area designated for the logo. Copy the placed image and onto the top layer. Review both copies of the new logo to ensure that all the placement data is matching, including X and Y location, height, and width.
-
-![rp2040_BBB-H-FP-v1.1 drawing](https://github.com/CapnHawke/Arcade-Addons/blob/main/Encoders/Assets/RP2040-BBB-H%20drawing.png)
-
-## Donations
-
-Consider making a donation to the OpenStick Community! Every part of their project is open source, from the GP2040-CE firmware to the original Pico Fighting Board design and also the RP2040 Basic Breakout Board design.  
-
-Donations are not necessary but always welcome!  TheTrain will typically use donations to pay for Discord boosts and try out new designs or sending boards to people for testing, iterations and helping people get board setups that might not be in an economic position to get one themselves.
-
-https://www.paypal.com/donate/?hosted_button_id=2JMTZVCGLDYC2
+Please refer to instructions posted by jfedor2 at the [slimbox-bt repository](https://github.com/jfedor2/slimbox-bt). Specifically, this board was designed for use with jfedor2's flatbox-rev7.uf2 pre-built binary. A copy of that firmware file (retrieved March 25, 2025) is also stored in this repository: [Firmware](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Encoders/Xiao-Breakout-Board/Firmware/flatbox-rev7.uf2)
 
 ## Revision History
 
-v5.4E
-- Initial design
+v0.1.0
+- Initial design, untested
 
 Remixes:
 BBB-H FP v1.1
