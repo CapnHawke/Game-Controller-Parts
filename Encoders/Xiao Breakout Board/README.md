@@ -128,10 +128,5 @@ Please refer to instructions posted by jfedor2 at the [slimbox-bt repository](ht
 v0.1.0
 - Initial design, untested
 
-Remixes:
-BBB-H FP v1.1
-- Added right angle headers
-- Added decorative copper fill area for logo
-
 ## Disclaimer
 These files and instructions are provided as-is, and without warranty. Your results may vary, and by using these files and instructions, you assume the risks associated with that activity. 
