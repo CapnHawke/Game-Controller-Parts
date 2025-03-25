@@ -25,7 +25,7 @@ Changes from the original design:
 
 ## Summary
 
-This is an UNTESTED design of a breakout board for a Seeed Studio Xiao-ESP32-C3 wireless device. It is suitable for building a wireless game controller running firmware written and compiled by jfedor2. 
+This is an UNTESTED design of a breakout board for a Seeed Studio Xiao nRF52840 wireless device. It is suitable for building a wireless game controller running firmware written and compiled by jfedor2. 
 
 Please note that a lithium battery will be required for any final controller builds! It is strongly recommended that a user include a battery caddy for safe storage of an attached battery in a fixed location near the PCB. I have plans to create an STL for a suitable battery. 
 
@@ -40,7 +40,7 @@ Those files are:
 
 This design includes through hole parts from JLCPCB.  There are additional costs associated with having through hole parts added to the board.  You can reduce overall costs by removing headers that are not needed for your specific application of the board.  This can be done in EasyEDA directly by choosing to exclude the part from the BoM before exporting the necessary files.
 
-It will be necessary to solder a Xiao ESP32-C3 wireless device to this breakout board after it is assembled by JLCPCB. 
+It will be necessary to solder a Xiao nRF52840 wireless device to this breakout board after it is assembled by JLCPCB. 
 
 Please note that these files are provided without warranty. The providers are not responsible for issues that arise from the manufacturing of these boards done through JLCPCB or any other manufacturer.  These board files have been ordered and tested for functionality. 
 
