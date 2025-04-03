@@ -1,6 +1,6 @@
 ![PFCT MX top](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/Images/PFCT%20MX%20top.png)
 ![PFCT MX bottom](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/Images/PFCT%20MX%20bottom.png)
-![PFCT MX completed unit](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/Images/completed%20unit.png)
+![PFCT MX completed unit](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/Images/completed%20unit.jpg)
 
 ## PFCT MX 1.0
 ---
