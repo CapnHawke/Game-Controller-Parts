@@ -25,7 +25,7 @@ Changes from the original design:
 
 ## Summary
 
-This is an UNTESTED design of a breakout board for a Seeed Studio Xiao nRF52840 wireless device. It is suitable for building a wireless game controller running firmware written and compiled by jfedor2. 
+This is a design of a breakout board for a Seeed Studio Xiao nRF52840 wireless device. It is suitable for building a wireless game controller running firmware written and compiled by jfedor2. 
 
 Please note that a lithium battery will be required for any final controller builds! It is strongly recommended that a user include a battery caddy for safe storage of an attached battery in a fixed location near the PCB. I have plans to create an STL for a suitable battery. 
 
@@ -126,7 +126,7 @@ Please refer to instructions posted by jfedor2 at the [slimbox-bt repository](ht
 ## Revision History
 
 v0.1.0
-- Initial design, untested
+- Initial design
 
 ## Disclaimer
 These files and instructions are provided as-is, and without warranty. Your results may vary, and by using these files and instructions, you assume the risks associated with that activity. 
