@@ -1,7 +1,10 @@
-## PFCT MX 1.1
+## PFCT MX 1.0
 
-![https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/PFCT%20MX%20-%20OBS%20MX%20remix/Assets/assembly_render.png](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/PFCT%20MX%20-%20OBS%20MX%20remix/Assets/assembly_render.png)
-![https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/PFCT%20MX%20-%20OBS%20MX%20remix/Assets/Bottom_PFCT_MX_v1_1.png](https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/PFCT%20MX%20-%20OBS%20MX%20remix/Assets/Bottom_PFCT_MX_v1_1.png) <br/>
+![https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/Images/PFCT%20MX%20top.png](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Button%20mods/Images/PFCT%20MX%20top.png)
+![https://github.com/CapnHawke/Game-Controller-Parts/tree/main/Button%20mods/Images/PFCT%20MX%20bottom.png](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Button%20mods/Images/PFCT%20MX%20bottom.png) <br/>
+<p align="center">
+  <img width="718" height="957" src="https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Button%20mods/Images/completed%20unit.jpg">
+</p>
 
 ---
 
@@ -9,10 +12,6 @@
 !!!WARNING!!!
 
 These circuit boards were based on another open source design which can be viewed here, called [OSB MX.](https://github.com/OpenStickCommunity/Hardware/blob/main/3D%20Prints/OSBMX%20v2/Legacy%20-%20OSBMX%20v1/README.md) Those files were provided with a number of warnings and disclaimers, all of which also apply to this remix. To summarize, there may be production issues with the PCBs, there may be incompatibilities with certain MX switches, and these files are provided WITHOUT WARRANTY. User assumes all risk including potential damages, if applicable.
-
-!!!WARNING!!!
-
-As of April 16, 2025, these v1.1 boards are on order from JLCPCB and they have not been tested. No problems are anticipated, but order at your own risk!
 
 ---
 
@@ -157,10 +156,6 @@ Revision History:
 v1.0
 - Original design
 
-v1.1
-- eliminated JST connector and added a third DuPont style pin for ground. This choice was made to facilitate easy wiring of the ground pins to add any number of buttons using readily available jumper wires.
-- Board dimensions redrawn to allow space for new connector type.
-- Silk screen adjusted to fit new connector type.
 --- 
 
 Planned Changes:
