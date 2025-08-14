@@ -2,7 +2,7 @@
 
 
 
-![Thumbstick Breakout\_Bottom](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Analog%20Thumbstick%20Breakout/Images/2025-08-13%20Kailh_CJP1311_Breakout_Top.png)<br>
+![Thumbstick Breakout\_Bottom](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Analog%20Thumbstick%20Breakout/Images/2025-08-13%20Kailh_CJP1311_Breakout_Bottom.png)<br>
 
 
 
@@ -54,7 +54,7 @@ Please note that as of August 13, 2025, this board is UNTESTED as I am still wai
 
 This breakout board was designed for the Kailh CJP1311 Joystick available here: <br>
 
-![Kailh Shop](https://kailhswitch.net/products/kailh-analog-joystick-potentiometer-for-game-controller-ps3-ps4-ps5). Specs and design reference documents for the joystick are available here: ![Thumbstick specs](https://www.kailhswitch.com/info/cjp1311-series-joystick-potentiometer-for-game-32827300.html). Kailh describes this joystick as a competitor to the ALPS RKJXS. ![Press release](https://www.kailhswitch.com/info/kailh-three-type-joystick-potentiometer-33742173.html).
+[Kailh Shop](https://kailhswitch.net/products/kailh-analog-joystick-potentiometer-for-game-controller-ps3-ps4-ps5). Specs and design reference documents for the joystick are available here: [Thumbstick specs](https://www.kailhswitch.com/info/cjp1311-series-joystick-potentiometer-for-game-32827300.html). Kailh describes this joystick as a competitor to the ALPS RKJXS. [Press release](https://www.kailhswitch.com/info/kailh-three-type-joystick-potentiometer-33742173.html).
 
 
 
