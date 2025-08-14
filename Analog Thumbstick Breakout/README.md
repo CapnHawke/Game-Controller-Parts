@@ -10,7 +10,7 @@
 
 
 
-![Thumbstick Breakout\_3d](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Analog%20Thumbstick%20Breakout%20/Images/2025-08-13%20Kailh\_CJP1311\_Breakout\_3d.png)<br>
+![Thumbstick Breakout\_3d](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Analog%20Thumbstick%20Breakout/Images/2025-08-13%20Kailh_CJP1311_Breakout_3d.png)<br>
 
 
 
