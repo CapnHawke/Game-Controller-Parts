@@ -11,7 +11,7 @@ Changes from the original design:
 
 ## Summary
 
-V3-SA Aux Panel mod is designed as a drop-in solution which can replace the existing panel V3-SA turbo slider panel. One variation has six 12mm button holes which are large enough to accommodate 12mm buttons, such as Daiertek buttons available on Amazon.com. There is a window for a 128x64 I2C OLED screen. Other variations are provided with holes sized for MX keyboard switches.
+V3-SA Aux Panel mod is designed as a drop-in solution which can replace the existing panel V3-SA turbo slider panel. This aux panel mod is also compatible with the Hori VX-SA. One variation has six 12mm button holes which are large enough to accommodate 12mm buttons, such as Daiertek buttons available on Amazon.com. There is a window for a 128x64 I2C OLED screen. Other variations are provided with holes sized for MX keyboard switches.
 
 The screen used for this mod was purchased here: [OLED link](https://www.aliexpress.us/item/2251832770994631.html). It is the "new" style, which has a smaller PCB than the "original" style. Screw holes might not align if a different screen is used.
 
@@ -23,6 +23,7 @@ The screws used to hold the original aux panel in place can be used to hold this
 5. Screw assembly into place using original aux panel screws.
 6. Drop in and affix suitable buttons (either 12mm buttons or MX keyboard switches, depending on panel variation).
 7. Wire screen and aux buttons to your encoder.
+8. If you wish to use a Cherry MX style aux panel, designs for a printed circuit board have also been uploaded to this repository, which match the switch spacing of the aux panel and will allow for solder assembly. The hosted Gerber file will allow for easy production at JLCPCB, while the hosted .json file can be opened in Easyeda so that modifications to the design can be made. You can order the PCBs through JLCPCB. When I ordered it and tested it, I opted to *not* have any assembly done, and I hand-soldered headers in place. 
 
 ## Variations
 
