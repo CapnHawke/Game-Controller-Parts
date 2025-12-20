@@ -13,6 +13,8 @@ Changes from the original design:
 
 V3-SA Aux Panel mod is designed as a drop-in solution which can replace the existing panel V3-SA turbo slider panel. This aux panel mod is also compatible with the Hori VX-SA. One variation has six 12mm button holes which are large enough to accommodate 12mm buttons, such as Daiertek buttons available on Amazon.com. There is a window for a 128x64 I2C OLED screen. Other variations are provided with holes sized for MX keyboard switches.
 
+I am also providing PCBs for those who wish to use the MX keyboard switch variety. Please note that there is a TESTED version of the board, which I have personally successfully installed in my own V3-SA and VX-SA controllers. I am also hosting an UNTESTED version of the PCB, which contains only one change from the tested model: It uses a copper fill for the ground instead of connecting ground to a trace. Electrically this should accomplish the same thing, but is perhaps less prone to damage and is more consistent with manufacturing standards. I have no plans to test the files with the ground plane unless the tested versions stop working for some reason.
+
 The screen used for this mod was purchased here: [OLED link](https://www.aliexpress.us/item/2251832770994631.html). It is the "new" style, which has a smaller PCB than the "original" style. Screw holes might not align if a different screen is used.
 
 The screws used to hold the original aux panel in place can be used to hold this replacement aux panel in place. Assembly is as follows: 
