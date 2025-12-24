@@ -12,7 +12,7 @@ These circuit boards were based on another open source design which can be viewe
 
 !!!WARNING!!!
 
-As of April 16, 2025, these v1.1 boards are on order from JLCPCB and they have not been tested. No problems are anticipated, but order at your own risk!
+As of December 24, 2025, v1.1 boards are on order from JLCPCB and they have been tested and compatibility is confirmed ONLY with OSB MX version 1.0. The newer versions of OSB MX are not compatible without some minor revision to the body of the button to allow clearance for the pin headers. As always, order at your own risk and happy building!
 
 ---
 
@@ -148,7 +148,7 @@ Button housings typically have been ordered though JLCPCB.  Due to the size of t
 
 Other stuff:
 
-Check out OSB MX V2 over on the Open Stick Community Hardware repository! Please note that these PCBs are untested with the V2 body variant. 
+Check out OSB MX V2 over on the Open Stick Community Hardware repository! Please note that v1.0 PCBs are untested with the V2 body variant and v1.1 PCBs are not compatible with the V2 body variant, without some minor modifications to the button body to allow clearance for the pin headers. 
 
 ---
 
@@ -165,5 +165,4 @@ v1.1
 
 Planned Changes:
 
-- Create variant board with three pin headers (one signal and two ground).
-- Create variant board with integrated LED.
+- None
