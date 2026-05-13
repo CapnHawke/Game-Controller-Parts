@@ -4,19 +4,50 @@
 
 The following text must be included in any distribution of derivatives of this file. All Links must also be included.
 
-Copyright 2024 [Hawkeye](https://github.com/CapnHawke)
+Copyright 2024, 2026 [Hawkeye](https://github.com/CapnHawke)
 
 [Licensed under CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-Changes from the original design:
- - list any changes you make here
+If you remix or modify this design, please include a change log and list any changes you make.
+
+
+
+## Change Log
+
+May 12, 2026
+
+Two new versions of this board have been added. There is a version 1.1.4 and a version 1.1.8.
+
+
+
+Changes in v 1.1.8:
+
+* The silk screen has been updated to make identification of the different pins on each JST connection easier. Each of the pins is now labeled "GND", "DATAIN", "DATAOUT" or "5V".
+* "Frame Perfect" logo has been removed and the text "mod your stick" has been added.
+* Compared to v. 1.0, the traces and components are in the same places and have the same physical location and properties.
+* This board has passed all design rule checks in EasyEda and should be ready for production. Because changes were made to the silk screen only, no change is anticipated in the function of this board compared to v 1.0, which is tested and works.
+
+
+
+Changes in v 1.1.4:
+
+* The silk screen has been updated to make identification of the different pins on each JST connection easier. Each of the pins is now labeled "GND", "DATAIN", "DATAOUT" or "5V".
+* "Frame Perfect" logo has been removed and the text "mod your stick" has been added.
+* The number of LEDs on the board have been reduced from eight to four. Compared to v. 1.0, the traces have been redrawn and the placement and orientation of the four remaining LEDs and attached capacitors has been changed. 
+* This board has passed all design rule checks in EasyEda and should be ready for production. However, it has not been tested by the designer. Your use of these files is subject to assumption of risks associated with the license and with the disclaimers posted in this repository.
+
+
 
 ## Summary
 
 This RGB LED board was designed for use with the following:
-- GP2040-CE gamepad firmware.
-- Japanese style arcade levers such as Sanwa JLF, JLX, Seimitsu LS-40, Seimitsu LS-70x, etc.
 
-This LED board hosts a set of eight WS2812 addressable RGB LEDs, which can be assigned to light up at the same time that the up, down, left and right cardinal direction switches are pressed on your joystick. 
+* GP2040-CE gamepad firmware.
+* Japanese style arcade levers such as Sanwa JLF, JLX, Seimitsu LS-40, Seimitsu LS-70x, etc.
+
+Depending on the selected version, these LED boards host a set of either four or eight WS2812 addressable RGB LEDs, which can be assigned to light up at the same time that the up, down, left and right cardinal direction switches are pressed on your joystick.
+
+
 
 Included is a CPL, a BOM, and a Gerber production file. If you want to make changes to the design, .json and .svg files have been exported from EasyEda. EasyEda is recommended to view and edit the .json file, to ensure that all data is retained in its native format.
+
