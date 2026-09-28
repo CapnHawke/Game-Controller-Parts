@@ -10,11 +10,11 @@ These files and instructions are provided as-is, and without warranty. Your resu
 
 ## Board Renders
 
-!\[Front and Back](https://github.com/CapnHawke/Arcade-Addons/blob/main/PS4%20Fightstick%20Touchpad%20Breakout/Assets/PCB%20Quote%20Preview.png)
+![Front and Back](https://github.com/CapnHawke/Arcade-Addons/blob/main/PS4%20Fightstick%20Touchpad%20Breakout/Assets/PCB%20Quote%20Preview.png)
 
 
 
-!\[3d Assembled view](https://github.com/CapnHawke/Arcade-Addons/blob/main/PS4%20Fightstick%20Touchpad%20Breakout/Assets/3d%20Render.png)
+![3d Assembled view](https://github.com/CapnHawke/Arcade-Addons/blob/main/PS4%20Fightstick%20Touchpad%20Breakout/Assets/3d%20Render.png)
 
 
 
