@@ -94,17 +94,17 @@ Supports:
 ## Visual guide information for Square Actuator
 
 Below is a render of the acutator.
-![Squareish Actuator render](https://github.com/CapnHawke/Arcade-Controller-Mods/blob/main/Lever%20mods/images/image.png)
+![Squareish Actuator render](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Lever%20mods/images/image.png)
 
 Below is an example image of the actuator installed in a JCV8, prior to screwing the gate back on. 
-![Actuator installed](https://github.com/CapnHawke/Arcade-Addons/blob/main/Lever%20mods/images/IMG_7519.jpg)
+![Actuator installed](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Lever%20mods/images/IMG_7519.jpg)
 
 ## Round Actuator information
 
 A 3mf file has been uploaded into the repository. This 3mf file was created using Bambu studio. The STLs themselves were created by exporting from Fusion. The 3mf file contains all three models, as well as some embedded text information to help identify which STL is which. 
 
 Below is a render of the three actuators in the slicer:
-![Replacement and oversize actuators](https://github.com/CapnHawke/Arcade-Controller-Mods/blob/main/Lever%20mods/images/Qanba%20replacement%20and%20oversize.png)
+![Replacement and oversize actuators](https://github.com/CapnHawke/Game-Controller-Parts/blob/main/Lever%20mods/images/Qanba%20replacement%20and%20oversize.png)
 
 During testing, I felt that the +0.5mm actuator greatly improved my experience with the lever. Cardinal directions were snappy and immediately responsive, while diagonal directions were much easier to reach compared to the stock actuator. 
 
